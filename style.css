@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box; 
+     
+    
+}
+
+body {
+    background: linear-gradient(90deg , gray , rgb(255, 255, 185)) ;
+}
+
+
+.game {
+    display: flex; 
+    gap : 12px ; 
+    align-items:  center ; 
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 320px;
+    margin : auto ; 
+
+}
+
+.square {
+    padding : 40px ; 
+    background-color: black ; 
+    color : white ; 
+    font-weight: bold ;
+    cursor: pointer;
+}
+
+
+#title {
+    text-align: center;
+}
+
+
+.square:hover {
+    opacity: 0.5 ;
+}
+
+.turn {
+    text-align: center ;
+    font-weight: bold; 
+    font-size : 30px ; 
+    margin-top : 20px ; 
+}
+
+#Player {
+    color : red ; 
+}
+
+#resetButton { 
+    display: block; 
+    margin: auto;
+    margin-top: 12px;
+    padding: 12px ; 
+    font-weight: bold;
+    border-radius: 12px ;
+    cursor: pointer;
+}
+
+
